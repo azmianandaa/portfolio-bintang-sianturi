@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -16,11 +17,13 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
 
-  <link rel="stylesheet" href="../src/output.css">
+  <link rel="stylesheet" href="./src/output.css">
   <title>Document</title>
 </head>
 
 <body class="font-poppins">
+
+  <!-- Header Start -->
   <header
     class="w-full shadow-lg h-19 px-5 flex items-center fixed left-0 right-0 top-0 z-[9999] bg-[#1F2937] lg:px-28">
     <div class="container mx-auto flex justify-between items-center">
@@ -39,7 +42,7 @@
       <nav id="navbar"
         class="absolute top-19 left-0 right-0 shadow-lg h-0 overflow-hidden transition-all duration-300 bg-[#1F2937] md:static md:overflow-visible md:bg-transparent md:h-auto md:shadow-none md:transition-none md:duration-[0]">
         <ul class="flex flex-col gap-3 px-5 pt-2 pb-5 md:flex-row md:p-0 md:gap-10">
-          <li><a href="../index.html">Home</a></li>
+          <li><a href="./index.html">Home</a></li>
           <li><a href="./about.html">About Me</a></li>
           <li><a href="./skills.html">Skills</a></li>
           <li><a href="./projects.html">Project</a></li>
@@ -49,23 +52,37 @@
 
     </div>
   </header>
+  <!-- Header End -->
 
-  <!-- Contact Section -->
-  <section id="contact" class="min-h-screen py-40 px-6">
-    <h2 class="text-xl font-bold text-center mb-8 md:text-2xl lg:text-3xl">Contact Me</h2>
-    <div class="flex flex-col items-center">
-      <p class="text-lg mb-4">Feel free to reach out to me!</p>
-      <ul class="flex flex-col">
-        <li><strong>Email:</strong> <a href="mailto:bintangsianturi621@gmail.com"
-            class="text-blue-600 hover:underline">bintangsianturi621@gmail.com</a></li>
-        <li><strong>Instagram:</strong> <a href="https://instagram.com/bintanggsianturi" target="_blank"
-            class="text-blue-600 hover:underline">@bintanggsianturi</a></li>
-        <li><strong>WhatsApp:</strong> <a href="https://wa.me/6282275268985" target="_blank"
-            class="text-blue-600 hover:underline">+62 822-7526-8985</a></li>
-      </ul>
+  <section id="skills" class="min-h-screen py-40 px-12">
+    <h2 class="text-2xl font-bold text-center mb-8 md:text-3xl lg:text-4xl">Skills</h2>
+    <div class="flex gap-8 flex-wrap justify-center">
+      <div class="bg-gray-100 p-6 rounded-lg shadow-[2px_3px_1px_2px_#626262] w-70">
+        <h3 class="text-xl font-semibold mb-2 text-[#1F2937]">Vidio Editing</h3>
+        <div class="flex gap-5">
+          <img src="./src/assets/canva-svgrepo-com.svg" alt="" class="w-[50px]">
+          <img src="./src/assets/capcut-svgrepo-com.svg" alt="" class="w-[50px]">
+        </div>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow-[2px_3px_1px_2px_#626262] w-70">
+        <h3 class="text-xl font-semibold mb-2 text-[#F2937]">Frontend Developer</h3>
+        <div class="flex gap-5">
+          <img src="./src/assets/html-5-svgrepo-com.svg" alt="" class="w-[50px]">
+          <img src="./src/assets/css-3-svgrepo-com.svg" alt="" class="w-[50px]">
+        </div>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow-[2px_3px_1px_2px_#626262] w-70">
+        <h3 class="text-xl font-semibold mb-2 text-[#1F2937]">Tools</h3>
+        <div class="flex gap-5">
+          <img src="./src/assets/meta-logo-facebook-2-svgrepo-com.svg" alt="" class="w-[50px]">
+          <img src="./src/assets/xampp-svgrepo-com.svg" alt="" class="w-[50px]">
+          <img src="./src/assets/github-142-svgrepo-com.svg" alt="" class="w-[50px]">
+        </div>
+      </div>
     </div>
   </section>
-  <footer class="bg-[#1F2937]  py-6 px-6">
+
+  <footer class="bg-[#1F2937] py-6 px-6 mt-50">
     <div class="container mx-auto">
       <div class="md:flex md:gap-20">
         <div class="flex flex-wrap gap-20 mb-10 md:gap-20">
@@ -80,7 +97,7 @@
           </div>
           <div class="flex flex-col gap-2 text-[#d5d5d5] text-[14px]">
             <h1 class="font-semibold text-white">Halaman</h1>
-            <a href="../index.html">Home</a>
+            <a href="./index.html">Home</a>
             <a href="./about.html">About Me</a>
             <a href="./skills.html">Skills</a>
             <a href="./projects.html">Projects</a>
@@ -89,7 +106,7 @@
         </div>
         <div class="text-[#d5d5d5] text-[14px] mb-5">
           <h1 class="font-semibold text-white text-lg mb-[13px] flex items-center gap-4"><img
-              src="../src/assets/WhatsApp Image 2025-05-14 at 18.47.42.jpeg" alt=""
+              src="./src/assets/WhatsApp Image 2025-05-14 at 18.47.42.jpeg" alt=""
               class="w-[40px] h-[40px] rounded-full">Bintang
             sianturi</h1>
           <p>Medan, Sumatra Utara</p>
@@ -104,8 +121,7 @@
     </div>
   </footer>
 
-
-  <script src="../src/js/main.js"></script>
+  <script type="module" src="./src/js/main.js"></script>
 </body>
 
 </html>

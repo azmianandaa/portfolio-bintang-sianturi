@@ -16,8 +16,8 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">s
 
-  <link rel="stylesheet" href="../src/output.css">
-  <title>Portfolio | Bintang Sianturi</title>
+  <link rel="stylesheet" href="./src/output.css">
+  <title>Document</title>
 </head>
 
 <body class="font-poppins">
@@ -41,7 +41,7 @@
       <nav id="navbar"
         class="absolute top-19 left-0 right-0 shadow-lg h-0 overflow-hidden transition-all duration-300 bg-[#1F2937] md:static md:overflow-visible md:bg-transparent md:h-auto md:shadow-none md:transition-none md:duration-[0]">
         <ul class="flex flex-col gap-3 px-5 pt-2 pb-5 md:flex-row md:p-0 md:gap-10">
-          <li><a href="../index.html">Home</a></li>
+          <li><a href="./index.html">Home</a></li>
           <li><a href="./about.html">About Me</a></li>
           <li><a href="./skills.html">Skills</a></li>
           <li><a href="./projects.html">Project</a></li>
@@ -53,36 +53,20 @@
   </header>
   <!-- Header End -->
 
-  <!-- About Me Section -->
-  <section id="about" class="min-h-screen pt-40 px-6">
-    <h2 class="text-2xl font-bold text-center mb-8 text-[#1F2937] md:text-3xl lg:text-4xl">About Me</h2>
-    <div class="flex flex-col md:flex-row items-center lg:justify-evenly">
-      <img src="../src/assets/WhatsApp Image 2025-05-14 at 18.47.42.jpeg" alt="Bintang Sianturi"
-        class="w-64 h-64 rounded-full md:rounded-xl mb-6 md:mb-0 md:mr-15 lg:w-85 lg:h-85 lg:mr-0">
-      <div class="md:w-[550px]">
-        <h3 class="text-xl font-semibold mb-4 mt-10 text-[#1F2937] md:text-2xl">Who Am I?</h3>
-        <p class="text-md mb-4 font-medium text-[#1F2937] md:text-lg">I'm <span class="text-orange-500">Bintang
-            Sianturi</span>,
-          a dedicated web
-          developer
-          with a passion for building
-          user-friendly and visually appealing websites. I love turning ideas into reality through code.</p>
-        <h3 class="text-xl font-semibold mb-4 text-[#1F2937] md:text-2xl">Education</h3>
-        <ul class="list-disc  mb-4 font-medium text-[#1F2937] list-outside text-base md:text-lg">
-          <li>SMK N 1 BADIRI - <span class="text-orange-500 font-semibold">Computer Network Technology</span> (2022)
-          </li>
-          <li>BATTUTA UNIVERSITY - Informatics (2023 - Present)</li>
-        </ul>
-        <p class="text-md font-medium text-[#1F2937] md:text-lg">I continuously learn new technologies to stay updated
-          in
-          the ever-evolving
-          tech
-          world.</p>
+  <section id="projects" class="min-h-screen py-40 px-6">
+    <h2 class="text-xl font-bold text-center mb-8 md:text-2xl lg:text-3xl">Projects</h2>
+    <div class="flex flex-wrap justify-center">
+      <div
+        class=" p-6 rounded-lg flex flex-col gap-5 items-center shadow-[2px_3px_1px_2px_#626262] bg-gray-100 w-100 md:w-[60%] lg:w-[70%]">
+        <h3 class="text-xl font-semibold mb-2">CRUD</h3>
+        <img src="./src/assets/WhatsApp Image 2025-05-15 at 08.59.19.jpeg" alt=""
+          class="border-2 rounded-xl border-gray-900 ">
+        <!-- <a href="#" class="text-blue-600 hover:underline">View Project</a> -->
       </div>
     </div>
   </section>
 
-  <footer class="bg-[#1F2937] py-6 px-6 mt-50">
+  <footer class="bg-[#1F2937]  py-6 px-6">
     <div class="container mx-auto">
       <div class="md:flex md:gap-20">
         <div class="flex flex-wrap gap-20 mb-10 md:gap-20">
@@ -97,7 +81,7 @@
           </div>
           <div class="flex flex-col gap-2 text-[#d5d5d5] text-[14px]">
             <h1 class="font-semibold text-white">Halaman</h1>
-            <a href="../index.html">Home</a>
+            <a href="./index.html">Home</a>
             <a href="./about.html">About Me</a>
             <a href="./skills.html">Skills</a>
             <a href="./projects.html">Projects</a>
@@ -106,7 +90,7 @@
         </div>
         <div class="text-[#d5d5d5] text-[14px] mb-5">
           <h1 class="font-semibold text-white text-lg mb-[13px] flex items-center gap-4"><img
-              src="../src/assets/WhatsApp Image 2025-05-14 at 18.47.42.jpeg" alt=""
+              src="./src/assets/WhatsApp Image 2025-05-14 at 18.47.42.jpeg" alt=""
               class="w-[40px] h-[40px] rounded-full">Bintang
             sianturi</h1>
           <p>Medan, Sumatra Utara</p>
@@ -121,7 +105,7 @@
     </div>
   </footer>
 
-  <script type="module" src="../src/js/main.js"></script>
+  <script type="module" src="./src/js/main.js"></script>
 </body>
 
 </html>
